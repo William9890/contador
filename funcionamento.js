@@ -9,6 +9,7 @@ botaomais.addEventListener("click",function(){
 
     contador=contador+1;
     numero.textContent=contador;
+     atualizartela();
 });
 
 botaomenos.addEventListener("click",function(){
@@ -33,10 +34,10 @@ botaozerar.addEventListener("click",function(){
 
 function atualizartela(){
      if(contador<0){
-        numero.style.color ="red"
+        numero.style.color ="red";
       
     }else{
         numero.style.color=""
         }
     
-    };
+    }
